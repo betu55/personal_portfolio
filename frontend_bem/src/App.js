@@ -12,9 +12,9 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <h1>Welcome to Django + React</h1>
-      <p>{message}</p>
+    <div className="flex flex-col items-center justify-center">
+      <h1 className="text-5xl font-bold mt-16">Welcome to Django + React</h1>
+      <p className="text-2xl my-5">{message}</p>
       {console.log(message)}
     </div>
   );
